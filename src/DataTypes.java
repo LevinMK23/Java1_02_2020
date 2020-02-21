@@ -5,6 +5,7 @@ public class DataTypes {
         //целые:
         byte b; // 1b = 8bit 2 ^ 8 = 256 -> [-128; 128)
         //01111111 = 127
+        int dif = 5;
         short s;  // 65000 2b = 16 bit 2 ^ 16
         int i; // 10 ^ 9, 4b = 32 bit 2 ^ 32 [-2^31; 2^31)
         long l;// 10 ^ 19, 8b = 64 bit 2 ^ 64
