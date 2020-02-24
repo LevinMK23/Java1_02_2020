@@ -1,3 +1,5 @@
+package lesson1;
+
 public class HelloWorld {
     //psvm
     public static void main(String[] args) {

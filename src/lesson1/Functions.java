@@ -1,3 +1,5 @@
+package lesson1;
+
 public class Functions {
 
     static void funcName(int param1, int param2) {
