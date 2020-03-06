@@ -4,19 +4,33 @@ import java.util.ArrayList;
 
 public class Teacher extends Person{
 
-    private ArrayList<Student> students;
+    private ArrayList<Group> groups;
+    private String subject;
 
     public Teacher(String surname, String name) {
         super(surname, name);
-        students = new ArrayList<>();
+        groups = new ArrayList<>();
     }
 
-    public ArrayList<Student> getStudents() {
-        return students;
+    public String getSubject() {
+        return subject;
     }
 
-    public void addStudent(Student student) {
-        students.add(student);
+    public void setSubject(String subject) {
+        this.subject = subject;
+    }
+
+    public void addToGroup(Group group) {
+        groups.add(group);
+        group.addTeacher(this);
+    }
+
+    public ArrayList<Group> getGroups() {
+        return groups;
+    }
+
+    public ArrayList<Student> getStudents(Group group) {
+        return group.getStudents();
     }
 
     @Override
