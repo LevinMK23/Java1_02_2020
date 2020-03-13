@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="Крестики Нолики:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/__jar</output-path>
+    <root id="root">
+      <element id="archive" name="Java1_02_2020.jar">
+        <element id="module-output" name="Java1_02_2020" />
+      </element>
+    </root>
+  </artifact>
+</component>
